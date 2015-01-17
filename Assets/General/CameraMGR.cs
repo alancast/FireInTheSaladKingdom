@@ -9,13 +9,17 @@ public class CameraMGR : MonoBehaviour {
 
 	void Start(){
 		instance = this;
-		setNewTarget(camera_target);
 	}
 
 	public void setNewTarget(GameObject new_target){
 		camera_target = new_target;
 		GetComponent<CameraZoom>().target = camera_target.rigidbody;
 		GetComponent<CameraFollow>().target = camera_target;
+	}
+
+	public void reset(){
+		GetComponent<CameraZoom>().reset ();
+		GetComponent<CameraFollow>().reset ();
 	}
 
 }
