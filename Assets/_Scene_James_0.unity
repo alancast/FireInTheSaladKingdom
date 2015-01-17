@@ -1020,6 +1020,7 @@ MonoBehaviour:
   target: {fileID: 119750625}
   min_zoom: 10
   max_zoom: 20
+  max_vel: 20
 --- !u!1 &2096547373
 GameObject:
   m_ObjectHideFlags: 0

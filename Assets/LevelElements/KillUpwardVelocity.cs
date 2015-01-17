@@ -19,7 +19,7 @@ public class KillUpwardVelocity : MonoBehaviour {
 	}
 
 	IEnumerator kill_velocity(Rigidbody obj_to_kill){
-		while (obj_to_kill.velocity.y > 0){
+		while (obj_to_kill && obj_to_kill.velocity.y > 0){
 			print ("killing");
 			Vector3 vel = obj_to_kill.velocity;
 			vel.y = vel.y / (1 + kill_factor);

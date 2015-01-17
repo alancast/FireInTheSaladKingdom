@@ -9,7 +9,8 @@ public class CameraZoom : MonoBehaviour {
 
 	public float min_zoom;
 	public float max_zoom;
-	public float zoom_factor;
+	public float max_vel;
+	public float cam_easing;
 
 	void Start(){
 		instance = this;
@@ -18,7 +19,8 @@ public class CameraZoom : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		float vel_factor = Mathf.Abs(Mathf.Max(target.velocity.x, target.velocity.y));
-		cam.orthographicSize = Mathf.Lerp(min_zoom, max_zoom, zoom_factor/ vel_factor);
+		float vel_factor = Mathf.Max(Mathf.Abs(target.velocity.x), Mathf.Abs(target.velocity.y));
+		float desiredSize = Mathf.Lerp(min_zoom, max_zoom, vel_factor / max_vel);
+		cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, desiredSize, cam_easing);
 	}
 }
