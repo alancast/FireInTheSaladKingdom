@@ -5,6 +5,7 @@ public class CameraFollow : MonoBehaviour {
 
 	public static CameraFollow instance;
 
+	[HideInInspector]
 	public GameObject target;
 	public float cam_easing;
 

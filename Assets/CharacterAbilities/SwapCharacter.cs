@@ -58,7 +58,7 @@ public class SwapCharacter : MonoBehaviour {
 		currentChar.rigidbody.velocity = phys.vel;
 		MoveSideways new_ms = currentChar.GetComponent<MoveSideways>();
 		new_ms.acceleration = phys.accel;
-		CameraFollow.instance.target = currentChar;
+		CameraMGR.instance.setNewTarget(currentChar);
 	}
 
 

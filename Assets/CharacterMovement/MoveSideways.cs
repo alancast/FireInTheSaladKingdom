@@ -59,11 +59,6 @@ public class MoveSideways : MonoBehaviour {
 		rigidbody.velocity = vel;
 			
 	}
-	
-//	void change_position(){
-//		Vector3 pos = transform.position;
-//		pos.x += velocity * Time.deltaTime;
-//		transform.position = pos;
-//	}
+
 
 }
