@@ -2,7 +2,7 @@
 
 COMMIT MESSAGES SHOULD BE HELPFUL
 
-General Unity Rules:
+<b>General Unity Rules:</b>
 
 -NEVER Change a Scene Which you have pulled. If you want to edit it, make a copy and edit the copy
 
@@ -13,7 +13,7 @@ General Unity Rules:
  to check that the changes of location will not only add to the new location but remove from the previous
 location
 
-Branches:
+<b>Branches:</b>
 
 A stable build is one which has been well-tested and does not crash under a good amount of stress
 A submittable build is one which we would be ok with turning in at the end of this thing
