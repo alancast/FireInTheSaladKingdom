@@ -41,8 +41,12 @@ public class MoveSideways : MonoBehaviour {
 	void change_acceleration(float change){
 		if (acceleration < -max_acceleration && change < 0) return;
 		if (acceleration > max_acceleration && change > 0) return;
-		// If we're within bounds, 
+		// If we're within bounds, add to the acceleration
 		acceleration += change * Time.deltaTime;
+		// If we're trying to accelerate in the opposite direction of
+		// the way we're moving, set acceleration to 0
+		if (Mathf.Sign(change) != Mathf.Sign(acceleration))
+			acceleration = 0;
 	}
 
 	void change_velocity(){
