@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd6efa4c2bd99e24f8e9c17a8e1a0484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump_vel: 6
+  jump_vel: 10
   ground_jump_distance: .209999993
 --- !u!136 &13600000
 CapsuleCollider:

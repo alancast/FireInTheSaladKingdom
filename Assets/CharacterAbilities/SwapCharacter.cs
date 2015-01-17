@@ -3,16 +3,28 @@ using System.Collections;
 
 public class SwapCharacter : MonoBehaviour {
 
+	public static SwapCharacter instance;
+
 	public GameObject currentChar;
 	public int currentCharIndex;
 	public GameObject[] characters;
+	public bool disabled = false;
+
+	void Awake(){
+		instance = this;
+	}
 
 	void Start(){
-		currentCharIndex = -1;
+		currentCharIndex = 0;
+		currentChar = Instantiate (characters [currentCharIndex]) as GameObject;
+		CameraMGR.instance.setNewTarget(currentChar);
+		RespawnMGR.instance.respawn (currentChar);
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if (disabled) return;
 		if (InputManager.get.swap_next_down()) {
 			swapNextChar();
 		}

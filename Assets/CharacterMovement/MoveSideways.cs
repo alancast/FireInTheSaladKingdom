@@ -28,25 +28,12 @@ public class MoveSideways : MonoBehaviour {
 
 	void handle_input(){
 		if (Input.GetKey(KeyCode.LeftArrow))
-			change_acceleration(-accel_speed);
+			acceleration = -accel_speed;
 		if (Input.GetKey(KeyCode.RightArrow))
-			change_acceleration(accel_speed);
+			acceleration = accel_speed;
 		if (!Input.GetKey(KeyCode.RightArrow) &&
 		    !Input.GetKey(KeyCode.LeftArrow)) 
 				acceleration= 0;
-	}
-
-	// Adds the value of change to the current acceleration
-	// If the new acceleration is 
-	void change_acceleration(float change){
-		if (acceleration < -max_acceleration && change < 0) return;
-		if (acceleration > max_acceleration && change > 0) return;
-		// If we're within bounds, add to the acceleration
-		acceleration += change * Time.deltaTime;
-		// If we're trying to accelerate in the opposite direction of
-		// the way we're moving, set acceleration to 0
-		if (Mathf.Sign(change) != Mathf.Sign(acceleration))
-			acceleration = 0;
 	}
 
 	void change_velocity(){
