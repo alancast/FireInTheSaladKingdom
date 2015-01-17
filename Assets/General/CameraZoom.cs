@@ -4,6 +4,7 @@ using System.Collections;
 public class CameraZoom : MonoBehaviour {
 
 	public static CameraZoom instance;
+	[HideInInspector]
 	public Rigidbody target;
 	Camera cam;
 
