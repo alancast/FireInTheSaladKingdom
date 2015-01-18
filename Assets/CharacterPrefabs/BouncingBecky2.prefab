@@ -18,7 +18,7 @@ GameObject:
   - 114: {fileID: 11429562}
   - 212: {fileID: 21229562}
   m_Layer: 0
-  m_Name: BouncingBecky
+  m_Name: BouncingBecky2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
