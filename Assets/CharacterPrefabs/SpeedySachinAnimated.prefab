@@ -16,6 +16,7 @@ GameObject:
   - 114: {fileID: 11445280}
   - 212: {fileID: 21245274}
   - 95: {fileID: 9587326}
+  - 114: {fileID: 11445142}
   m_Layer: 0
   m_Name: SpeedySachinAnimated
   m_TagString: Untagged
@@ -65,6 +66,17 @@ Animator:
   m_ApplyRootMotion: 0
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11445142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c734821ec895e458d94ac46107ff114b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11445274
 MonoBehaviour:
   m_ObjectHideFlags: 1
