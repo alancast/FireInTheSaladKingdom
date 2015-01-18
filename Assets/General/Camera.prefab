@@ -15,6 +15,7 @@ GameObject:
   - 114: {fileID: 11437676}
   - 114: {fileID: 11458852}
   - 114: {fileID: 11462054}
+  - 114: {fileID: 11415776}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -80,6 +81,27 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190096}
   m_Enabled: 1
+--- !u!114 &11415776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a564255726d4a9f805357af7cf5c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numClouds: 200
+  cloudPrefabs:
+  - {fileID: 168862, guid: 7d4eabc394bf1452e90a443b4f547c54, type: 2}
+  cloudPosMin: {x: -100, y: -30, z: 0}
+  cloudPosMax: {x: 500, y: 100, z: 0}
+  cloudScaleMin: 1
+  cloudScaleMax: 5
+  cloudSpeedMult: .5
+  _______________: 0
+  cloudInstances: []
 --- !u!114 &11437676
 MonoBehaviour:
   m_ObjectHideFlags: 1
