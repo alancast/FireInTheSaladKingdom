@@ -13,9 +13,13 @@ public class CameraZoom : MonoBehaviour {
 	public float max_vel;
 	public float cam_easing;
 
-	void Start(){
+	void Awake(){
 		instance = this;
 		cam = GetComponent<Camera>();
+		
+	}
+
+	void Start(){
 	}
 
 	// Update is called once per frame

@@ -10,10 +10,14 @@ public class CameraMGR : MonoBehaviour {
 
 	public GameObject camera_target;
 
-	void Start(){
+	void Awake(){
 		instance = this;
+	}
+
+	void Start(){
 		score = 0;
 		GameObject scoreGO = GameObject.Find("ScoreLabel"); 
+		if (!scoreGO) return;
 		scoreGT = scoreGO.GetComponent<Text>();
 		scoreGT.text = "Coins: " + score;
 	}
