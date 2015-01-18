@@ -11,7 +11,7 @@ GameObject:
   - 135: {fileID: 13568862}
   - 212: {fileID: 21255018}
   m_Layer: 0
-  m_Name: Cloud
+  m_Name: Potatoe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,7 +61,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9a6f29729b24343cdb8de09483082e49, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ca1d5db94912b43ca912bbeaf02c7aa5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
