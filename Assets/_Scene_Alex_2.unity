@@ -411,9 +411,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 209208501}
-  - 33: {fileID: 209208500}
   - 135: {fileID: 209208499}
-  - 23: {fileID: 209208498}
+  - 212: {fileID: 209208498}
   m_Layer: 0
   m_Name: Cloud
   m_TagString: Untagged
@@ -421,20 +420,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!23 &209208498
-Renderer:
+--- !u!212 &209208498
+SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2368862, guid: 7d4eabc394bf1452e90a443b4f547c54,
+  m_PrefabParentObject: {fileID: 21255018, guid: 7d4eabc394bf1452e90a443b4f547c54,
     type: 2}
   m_PrefabInternal: {fileID: 1803696045}
   m_GameObject: {fileID: 209208497}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 37d78b365cdd04e6eaabb7e3b7c7d706, type: 2}
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -442,6 +441,8 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 626a30529a6834c978d521b7c1607567, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!135 &209208499
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -455,14 +456,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: .5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &209208500
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3368862, guid: 7d4eabc394bf1452e90a443b4f547c54,
-    type: 2}
-  m_PrefabInternal: {fileID: 1803696045}
-  m_GameObject: {fileID: 209208497}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &209208501
 Transform:
   m_ObjectHideFlags: 0
@@ -1980,8 +1973,8 @@ MonoBehaviour:
   currentChar: {fileID: 0}
   currentCharIndex: 0
   characters:
-  - {fileID: 100000, guid: 3736ef135ae0041e2840534ae420fc30, type: 2}
-  - {fileID: 100000, guid: c4e1ee289f902f14c877a7b606468bc4, type: 2}
+  - {fileID: 145274, guid: 39d08e3c76ac8491e929be8f5e8a9a2b, type: 2}
+  - {fileID: 129562, guid: da2fb219aa3714a85b271d9eb4f9c629, type: 2}
   disabled: 0
 --- !u!4 &843734048
 Transform:
