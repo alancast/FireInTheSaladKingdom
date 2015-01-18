@@ -15,8 +15,9 @@ GameObject:
   - 114: {fileID: 11445274}
   - 114: {fileID: 11445280}
   - 212: {fileID: 21245274}
+  - 95: {fileID: 9587326}
   m_Layer: 0
-  m_Name: SpeedySachinSprited 1
+  m_Name: SpeedySachinAnimated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,6 +50,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!95 &9587326
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145274}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 61a417ea650844397b1ca9691d217d8b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11445274
 MonoBehaviour:
   m_ObjectHideFlags: 1
