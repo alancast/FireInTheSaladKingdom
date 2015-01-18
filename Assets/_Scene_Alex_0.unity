@@ -155,7 +155,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 328162440}
   - 114: {fileID: 328162439}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SpawnPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -515,7 +515,7 @@ GameObject:
   - 114: {fileID: 633391879}
   - 65: {fileID: 633391878}
   - 114: {fileID: 633391877}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: KillPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   - 114: {fileID: 708686362}
   - 65: {fileID: 708686361}
   - 114: {fileID: 708686360}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CheckPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1965,7 +1965,7 @@ GameObject:
   - 114: {fileID: 1438853218}
   - 65: {fileID: 1438853217}
   - 114: {fileID: 1438853216}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: KillPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2542,7 +2542,7 @@ GameObject:
   - 4: {fileID: 1952572259}
   - 65: {fileID: 1952572258}
   - 114: {fileID: 1952572257}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: UpwardVelocityKiller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2596,7 +2596,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1961629950}
   - 114: {fileID: 1961629949}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SpawnPoint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2637,7 +2637,7 @@ GameObject:
   - 4: {fileID: 1963377114}
   - 65: {fileID: 1963377113}
   - 114: {fileID: 1963377112}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: UpwardVelocityKiller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2969,7 +2969,7 @@ GameObject:
   - 114: {fileID: 2069738431}
   - 65: {fileID: 2069738430}
   - 114: {fileID: 2069738429}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: CheckPoint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3035,7 +3035,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2078955564}
   - 114: {fileID: 2078955563}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SpawnPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

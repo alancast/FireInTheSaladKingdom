@@ -17,6 +17,7 @@ GameObject:
   - 114: {fileID: 11400004}
   - 114: {fileID: 11400006}
   - 114: {fileID: 11400008}
+  - 114: {fileID: 11494292}
   m_Layer: 0
   m_Name: BouncingBecky
   m_TagString: Untagged
@@ -102,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beb7b1da109079e4b9ff90f32e2448ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  max_velocity: 10
+  max_velocity: 5
   max_acceleration: 10
   accel_speed: 25
   slow_down_factor: 4
@@ -144,6 +145,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b04bb21131430a4481aa430826d9941, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11494292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2b20084027647e694aaed75d9c4340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_x_velocity: 5
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
