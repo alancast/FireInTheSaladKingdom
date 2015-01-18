@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 403464}
   - 65: {fileID: 6503464}
   - 114: {fileID: 11403464}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: UpwardVelocityKiller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
