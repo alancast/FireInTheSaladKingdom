@@ -9,6 +9,10 @@ public class InputManager : MonoBehaviour {
 		get = this;
 	}
 
+	public bool reset(){
+		return Input.GetKeyDown(KeyCode.R);
+	}
+
 	public bool action(){
 		return Input.GetKey(KeyCode.Space);
 	}
