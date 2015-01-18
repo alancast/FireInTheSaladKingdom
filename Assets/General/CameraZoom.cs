@@ -24,4 +24,8 @@ public class CameraZoom : MonoBehaviour {
 		float desiredSize = Mathf.Lerp(min_zoom, max_zoom, vel_factor / max_vel);
 		cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, desiredSize, cam_easing);
 	}
+
+	public void reset(){
+		cam.orthographicSize = min_zoom;
+	}
 }

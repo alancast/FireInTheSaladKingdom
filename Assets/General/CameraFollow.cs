@@ -23,4 +23,10 @@ public class CameraFollow : MonoBehaviour {
 		desired_camera_position.z = transform.position.z;
 		transform.position = Vector3.Lerp(transform.position, desired_camera_position, cam_easing);
 	}
+
+	public void reset(){
+		desired_camera_position = target.transform.position;
+		desired_camera_position.z = transform.position.z;
+		transform.position = desired_camera_position;
+	}
 }
