@@ -239,7 +239,7 @@ GameObject:
   - 65: {fileID: 428057861}
   - 23: {fileID: 428057860}
   - 114: {fileID: 428057864}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Play
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -949,7 +949,7 @@ GameObject:
   - 65: {fileID: 1134883296}
   - 23: {fileID: 1134883295}
   - 114: {fileID: 1134883299}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Instructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   - 65: {fileID: 1404613247}
   - 23: {fileID: 1404613246}
   - 114: {fileID: 1404613250}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Story
   m_TagString: Untagged
   m_Icon: {fileID: 0}

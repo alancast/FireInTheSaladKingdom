@@ -12,7 +12,7 @@ GameObject:
   - 65: {fileID: 6584274}
   - 23: {fileID: 2384274}
   - 114: {fileID: 11430060}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
