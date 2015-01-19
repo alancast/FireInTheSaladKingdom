@@ -17,8 +17,8 @@ GameObject:
   - 114: {fileID: 11429560}
   - 114: {fileID: 11429562}
   - 212: {fileID: 21229562}
-  - 95: {fileID: 9553106}
   - 114: {fileID: 11496784}
+  - 95: {fileID: 9585792}
   m_Layer: 0
   m_Name: BouncingBeckyAnimaed
   m_TagString: Untagged
@@ -53,7 +53,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
---- !u!95 &9553106
+--- !u!95 &9585792
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -65,7 +65,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 71181a44dc4a64cc199a3216b3281cdb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11429552

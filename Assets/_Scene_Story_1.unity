@@ -2961,6 +2961,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11482196, guid: 211e834ab165349bb86c24a1790a06d4, type: 2}
+      propertyPath: characters.Array.data[0]
+      value: 
+      objectReference: {fileID: 145274, guid: e2485b1c8c2bf4520a17f0326ed081ed, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 211e834ab165349bb86c24a1790a06d4, type: 2}
   m_RootGameObject: {fileID: 1232503481}
@@ -3397,7 +3401,6 @@ GameObject:
   - 114: {fileID: 1282443773}
   - 114: {fileID: 1282443772}
   - 114: {fileID: 1282443771}
-  - 114: {fileID: 1282443770}
   - 114: {fileID: 1282443769}
   m_Layer: 0
   m_Name: Camera
@@ -3418,27 +3421,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1da7aa3027894895bae78a8245762f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1282443770
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11415776, guid: 74f0264cd75bf437aa7a6461fd567cdd,
-    type: 2}
-  m_PrefabInternal: {fileID: 2143355161}
-  m_GameObject: {fileID: 1282443768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70a564255726d4a9f805357af7cf5c1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numClouds: 200
-  cloudPrefabs: []
-  cloudPosMin: {x: -100, y: -30, z: 0}
-  cloudPosMax: {x: 500, y: 100, z: 0}
-  cloudScaleMin: 1
-  cloudScaleMax: 5
-  cloudSpeedMult: .5
-  _______________: 0
-  cloudInstances: []
 --- !u!114 &1282443771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3620,7 +3602,7 @@ Transform:
   m_PrefabParentObject: {fileID: 442276, guid: d685526c0e4294f55998df824a6a0918, type: 2}
   m_PrefabInternal: {fileID: 566668158}
   m_GameObject: {fileID: 1359346475}
-  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106709}
+  m_LocalRotation: {x: 0, y: 0, z: .707106888, w: .707106769}
   m_LocalPosition: {x: 183, y: -208, z: 0}
   m_LocalScale: {x: 1000, y: 1, z: 1}
   m_Children: []
@@ -3941,6 +3923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eabac31ce68a44f60a2aa0d6d2d987ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: _Scene_Menu 3
 --- !u!212 &1707430548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4566,7 +4549,7 @@ Transform:
   m_PrefabParentObject: {fileID: 442276, guid: d685526c0e4294f55998df824a6a0918, type: 2}
   m_PrefabInternal: {fileID: 1460879720}
   m_GameObject: {fileID: 2040532972}
-  m_LocalRotation: {x: 0, y: 0, z: .707106829, w: .707106709}
+  m_LocalRotation: {x: 0, y: 0, z: .707106888, w: .707106769}
   m_LocalPosition: {x: 222, y: -208, z: 0}
   m_LocalScale: {x: 1000.00006, y: 1, z: 1}
   m_Children: []
@@ -4581,7 +4564,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11415776, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
       propertyPath: cloudPrefabs.Array.size
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 490096, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4623,7 +4606,20 @@ Prefab:
       propertyPath: max_zoom
       value: 20
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11415776, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
+      propertyPath: cloudPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 168862, guid: 7d4eabc394bf1452e90a443b4f547c54, type: 2}
+    - target: {fileID: 11415776, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
+      propertyPath: cloudPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 168862, guid: be5938158169941719a09b84ba0efc15, type: 2}
+    - target: {fileID: 11415776, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
+      propertyPath: cloudPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 168862, guid: 1cdaf89706bb1400ea5613ab538704b9, type: 2}
+    m_RemovedComponents:
+    - {fileID: 11415776, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 74f0264cd75bf437aa7a6461fd567cdd, type: 2}
   m_RootGameObject: {fileID: 1282443768}
   m_IsPrefabParent: 0

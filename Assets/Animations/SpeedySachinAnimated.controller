@@ -40,7 +40,7 @@ Transition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: speed
-    m_EventTreshold: 23
+    m_EventTreshold: 27
     m_ExitTime: 0
   m_Atomic: 1
   m_Solo: 0
@@ -80,7 +80,7 @@ Transition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: speed
-    m_EventTreshold: 23
+    m_EventTreshold: 27
     m_ExitTime: 1
   m_Atomic: 1
   m_Solo: 0
@@ -112,7 +112,7 @@ State:
   m_Motions:
   - {fileID: 7400000, guid: e2d486c778db948bc83c6947839735bb, type: 2}
   m_ParentStateMachine: {fileID: 110732944}
-  m_Position: {x: 50, y: 50, z: 0}
+  m_Position: {x: 48, y: 48, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -131,13 +131,13 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110204792}
-      second:
-      - {fileID: 110150604}
-    data:
       first: {fileID: 110232944}
       second:
       - {fileID: 110104782}
+    data:
+      first: {fileID: 110204792}
+      second:
+      - {fileID: 110150604}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
