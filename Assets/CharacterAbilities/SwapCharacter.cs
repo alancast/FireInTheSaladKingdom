@@ -34,7 +34,7 @@ public class SwapCharacter : MonoBehaviour {
 	}
 
 	struct phys_info {
-		public float accel;
+		public MoveSideways.accel_setting accel_setting;
 		public Vector3 vel;
 	}
 
@@ -56,7 +56,7 @@ public class SwapCharacter : MonoBehaviour {
 	// destroy it
 	phys_info getCurrentCharPhysics(){
 		phys_info phys;
-		phys.accel = currentChar.GetComponent<MoveSideways>().acceleration;
+		phys.accel_setting = currentChar.GetComponent<MoveSideways>().get_acceleration();
 		phys.vel = currentChar.rigidbody.velocity;
 		Destroy(currentChar);
 		return phys;
@@ -69,7 +69,7 @@ public class SwapCharacter : MonoBehaviour {
 		// Assign accel and vel to new character 
 		currentChar.rigidbody.velocity = phys.vel;
 		MoveSideways new_ms = currentChar.GetComponent<MoveSideways>();
-		new_ms.acceleration = phys.accel;
+		new_ms.set_acceleration(phys.accel_setting);
 		CameraMGR.instance.setNewTarget(currentChar);
 	}
 

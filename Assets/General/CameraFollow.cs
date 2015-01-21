@@ -8,6 +8,9 @@ public class CameraFollow : MonoBehaviour {
 	[HideInInspector]
 	public GameObject target;
 	public float cam_easing;
+	public float y_offset;
+
+
 
 	Vector3 desired_camera_position;
 
@@ -21,12 +24,14 @@ public class CameraFollow : MonoBehaviour {
 	void FixedUpdate () {
 		desired_camera_position = target.transform.position;
 		desired_camera_position.z = transform.position.z;
+		desired_camera_position.y += y_offset;
 		transform.position = Vector3.Lerp(transform.position, desired_camera_position, cam_easing);
 	}
 
 	public void reset(){
 		desired_camera_position = target.transform.position;
 		desired_camera_position.z = transform.position.z;
+		desired_camera_position.y += y_offset;
 		transform.position = desired_camera_position;
 	}
 }

@@ -18,7 +18,7 @@ GameObject:
   - 95: {fileID: 9587326}
   - 114: {fileID: 11445142}
   m_Layer: 0
-  m_Name: SpeedySachinAnimated
+  m_Name: SpeedySachinAnimated 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,10 +102,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   max_velocity: 30
-  max_acceleration: 20
-  accel_speed: 20
+  max_acceleration: 30
+  accel_speed: 30
   slow_down_factor: 10
-  acceleration: 5
+  for_physics________________: 0
+  acceleration: 6
 --- !u!114 &11445278
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,10 +140,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .5
-  m_Height: 1.39999998
+  m_Radius: .560000002
+  m_Height: 1.30999994
   m_Direction: 1
-  m_Center: {x: 5.96046448e-08, y: 0, z: -8.94069672e-08}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &21245274
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -162,7 +163,7 @@ SpriteRenderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 96d005f5a67304240a1628bb65b8d146, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000

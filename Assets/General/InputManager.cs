@@ -9,24 +9,38 @@ public class InputManager : MonoBehaviour {
 		get = this;
 	}
 
+	public KeyCode resetButton;
 	public bool reset(){
-		return Input.GetKeyDown(KeyCode.R);
+		return Input.GetKeyDown(resetButton);
 	}
 
+	public KeyCode actionButton;
 	public bool action(){
-		return Input.GetKey(KeyCode.Space);
+		return Input.GetKey(actionButton);
 	}
 
 	public bool action_down(){
-		return Input.GetKeyDown(KeyCode.Space);
+		return Input.GetKeyDown(actionButton);
 	}
 
+	public KeyCode swapNextButton;
 	public bool swap_next_down(){
-		return Input.GetKeyDown(KeyCode.D);
+		return Input.GetKeyDown(swapNextButton);
 	}
 
+	public KeyCode swapPrevButton;
 	public bool swap_prev_down(){
-		return Input.GetKeyDown(KeyCode.A);
+		return Input.GetKeyDown(swapPrevButton);
+	}
+
+	public KeyCode forwardButton;
+	public bool forward(){
+		return Input.GetKey(KeyCode.RightArrow);
+	}
+
+	public KeyCode backwardButton;
+	public bool backward(){
+		return Input.GetKey(KeyCode.LeftArrow);
 	}
 
 }

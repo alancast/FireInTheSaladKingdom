@@ -10,15 +10,11 @@ public class MoveSideways : MonoBehaviour {
 
 
 	//	For physics
-	public float acceleration;
-
-	void Start () {
-	}
+	float acceleration;
 	
 	// Update is called once per frame
 	void Update () {
 		handle_input();
-
 	}
 
 	void FixedUpdate(){
@@ -34,6 +30,32 @@ public class MoveSideways : MonoBehaviour {
 		if (!Input.GetKey(KeyCode.RightArrow) &&
 		    !Input.GetKey(KeyCode.LeftArrow)) 
 				acceleration= 0;
+	}
+
+	public enum accel_setting {
+		STOP,
+		FORWARD,
+		BACKWARD
+	}
+
+	public void set_acceleration(accel_setting setting){
+		switch(setting){
+		case accel_setting.STOP:
+			acceleration = 0;
+			break;
+		case accel_setting.FORWARD:
+			acceleration = accel_speed;
+			break;
+		case accel_setting.BACKWARD:
+			acceleration = -accel_speed;
+			break;
+		}
+	}
+
+	public accel_setting get_acceleration(){
+		if (acceleration == accel_speed) return accel_setting.FORWARD;
+		else if (acceleration == -accel_speed) return accel_setting.BACKWARD;
+		else return accel_setting.STOP;
 	}
 
 	void change_velocity(){
