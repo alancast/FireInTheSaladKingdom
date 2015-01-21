@@ -19,18 +19,6 @@ public class SwapCharacter : MonoBehaviour {
 		currentChar = Instantiate (characters [currentCharIndex]) as GameObject;
 		CameraMGR.instance.setNewTarget(currentChar);
 		RespawnMGR.instance.respawn (currentChar);
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (disabled) return;
-		if (InputManager.get.swap_next_down()) {
-			swapNextChar();
-		}
-		if (InputManager.get.swap_prev_down()){
-			swapPrevChar();
-		}
 	}
 
 	struct phys_info {
@@ -38,14 +26,16 @@ public class SwapCharacter : MonoBehaviour {
 		public Vector3 vel;
 	}
 
-	void swapNextChar(){
+	public void swapNextChar(){
+		if (disabled) return;
 		phys_info phys = getCurrentCharPhysics();
 		if (++currentCharIndex >= characters.Length)
 			currentCharIndex = 0;
 		swapChar(phys);
 	}
 
-	void swapPrevChar(){
+	public void swapPrevChar(){
+		if (disabled) return;
 		phys_info phys = getCurrentCharPhysics();
 		if (--currentCharIndex < 0)
 			currentCharIndex = characters.Length - 1;

@@ -96,8 +96,6 @@ MonoBehaviour:
   max_acceleration: 25
   accel_speed: 25
   slow_down_factor: 4
-  for_physics________________: 0
-  acceleration: 0
 --- !u!114 &11429556
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -119,11 +117,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 129562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 461aa95c3cdace347ba834749f8b95f1, type: 3}
+  m_Script: {fileID: 11500000, guid: cc7f946e275400b48b7ea0fdbc626b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fast_fall_acceleration_speed: .5
-  max_downward_vel: 40
+  fast_fall_acceleration_speed: 0
+  max_downward_vel: 0
 --- !u!114 &11429560
 MonoBehaviour:
   m_ObjectHideFlags: 1

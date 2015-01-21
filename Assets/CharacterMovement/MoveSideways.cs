@@ -13,23 +13,10 @@ public class MoveSideways : MonoBehaviour {
 	float acceleration;
 	
 	// Update is called once per frame
-	void Update () {
-		handle_input();
-	}
 
 	void FixedUpdate(){
 		change_velocity();
 		//change_position();
-	}
-
-	void handle_input(){
-		if (Input.GetKey(KeyCode.LeftArrow))
-			acceleration = -accel_speed;
-		if (Input.GetKey(KeyCode.RightArrow))
-			acceleration = accel_speed;
-		if (!Input.GetKey(KeyCode.RightArrow) &&
-		    !Input.GetKey(KeyCode.LeftArrow)) 
-				acceleration= 0;
 	}
 
 	public enum accel_setting {

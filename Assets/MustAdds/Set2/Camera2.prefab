@@ -122,6 +122,7 @@ MonoBehaviour:
   max_zoom: 20
   max_vel: 40
   cam_easing: .0199999996
+  min_change: 0
 --- !u!114 &11431422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -135,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   cam_easing: .109999999
-  y_offset: 0
+  y_offset: 5
 --- !u!124 &12431416
 Behaviour:
   m_ObjectHideFlags: 1

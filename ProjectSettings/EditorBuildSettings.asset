@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/OriginalGame/ArchiveScenes/_Scene_Menu 3.unity
+  - enabled: 0
+    path: Assets/OriginalGame/ArchiveScenes/_Scene_AJames_3.unity
+  - enabled: 0
+    path: Assets/OriginalGame/ArchiveScenes/_Scene_Story_1.unity
   - enabled: 1
-    path: Assets/_Scene_Menu 3.unity
+    path: Assets/OriginalGame/WorkingVersion/_Scene_Menu 4.unity
   - enabled: 1
-    path: Assets/_Scene_AJames_3.unity
+    path: Assets/OriginalGame/WorkingVersion/_Scene_AJames_4.unity
   - enabled: 1
-    path: Assets/_Scene_Story_1.unity
+    path: Assets/OriginalGame/WorkingVersion/_Scene_Story_2.unity
