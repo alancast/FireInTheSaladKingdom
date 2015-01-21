@@ -20,7 +20,7 @@ GameObject:
   - 114: {fileID: 11477924}
   - 95: {fileID: 9577924}
   - 114: {fileID: 11463066}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BBNewControls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

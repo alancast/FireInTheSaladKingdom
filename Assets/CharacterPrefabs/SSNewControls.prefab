@@ -18,7 +18,7 @@ GameObject:
   - 95: {fileID: 9547150}
   - 114: {fileID: 11447160}
   - 114: {fileID: 11447150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SSNewControls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,20 +12,33 @@ using System;
 
 public class NPCActionFactory
 {
-
-
-	static public GameObject get_npc_action(NPCActionMGR.NPCActionTypes action){
+	public enum NPCActionTypes {
+		MOVE_FORWARD,
+		MOVE_BACKWARD,
+		WAIT
+	}
+	
+	static public GameObject get_npc_action(NPCActionTypes action){
 		GameObject actionGo = new GameObject();
 
 		switch(action){
-		case NPCActionMGR.NPCActionTypes.MOVE_FORWARD:
+		case NPCActionTypes.MOVE_FORWARD:
 			actionGo.AddComponent("NPC_MoveForward");
 			actionGo.name = "Move Forward";
 			break;
-		case NPCActionMGR.NPCActionTypes.STOP_MOVING:
+		case NPCActionTypes.MOVE_BACKWARD:
+			actionGo.AddComponent("NPC_MoveBackward");
+			actionGo.name = "Move Backward";
+			break;
+		case NPCActionTypes.WAIT:
+			actionGo.AddComponent("NPC_Wait");
+			actionGo.name = "Wait";
 			break;
 
 		}
+		actionGo.AddComponent("BoxCollider");
+		BoxCollider bc = actionGo.GetComponent("BoxCollider") as BoxCollider;
+		bc.isTrigger = true;
 		return actionGo;
 	}
 

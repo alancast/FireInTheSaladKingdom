@@ -4,10 +4,11 @@ using System.Collections;
 public class NPCController : MonoBehaviour {
 
 	public NPCActionMGR actionMGR;
-	NPCAction currentAction;
+	public NPCAction currentAction;
 
 	// Update is called once per frame
 	void Update () {
+		if (!currentAction) return;
 		if (currentAction.do_action(gameObject)) currentAction = null;
 	}
 
