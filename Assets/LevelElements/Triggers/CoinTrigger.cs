@@ -7,6 +7,6 @@ public class CoinTrigger : MonoBehaviour {
 		Destroy (this.gameObject);
 		CameraMGR.instance.score += 1;
 		CameraMGR.instance.scoreGT.text = "Water: " + CameraMGR.instance.score + "/" 
-			+ (FireTrigger.instance.count - 5);
+			+ (FireTrigger.instance.count);
 	}
 }

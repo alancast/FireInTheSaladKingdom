@@ -19,7 +19,7 @@ public class CameraMGR : MonoBehaviour {
 		GameObject scoreGO = GameObject.Find("ScoreLabel"); 
 		if (!scoreGO) return;
 		scoreGT = scoreGO.GetComponent<Text>();
-		scoreGT.text = "Coins: " + score;
+		scoreGT.text = "Water: " + score;
 	}
 
 	public void setNewTarget(GameObject new_target){

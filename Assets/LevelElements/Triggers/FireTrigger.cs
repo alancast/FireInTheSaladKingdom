@@ -14,7 +14,7 @@ public class FireTrigger : MonoBehaviour {
 
 	void Start(){
 		CameraMGR.instance.scoreGT.text = "Water: " +
-			CameraMGR.instance.score + "/" + (count - 5);
+			CameraMGR.instance.score + "/" + (count);
 	}
 
 	void OnTriggerEnter(Collider other){

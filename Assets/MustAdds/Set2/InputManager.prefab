@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40.080822, y: 6.36126614, z: -3.86694336}
+  m_LocalPosition: {x: 548.100464, y: 10.4601946, z: -3.86694336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,7 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be6dc26c7146b1048a98e1a1b50fdf4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetButton: 303
+  resetButton: 114
   actionButton: 32
   swapNextButton: 100
   swapPrevButton: 97

@@ -42,8 +42,8 @@ MonoBehaviour:
   currentChar: {fileID: 0}
   currentCharIndex: 0
   characters:
-  - {fileID: 145274, guid: e2485b1c8c2bf4520a17f0326ed081ed, type: 2}
-  - {fileID: 129562, guid: 6c20cf542f4034c198a479a2a0edebe1, type: 2}
+  - {fileID: 147150, guid: 0e0c203e0b8258c4086e5b419e5db959, type: 2}
+  - {fileID: 177924, guid: 07ab93262b4c2784eaca19d8d7cd34aa, type: 2}
   disabled: 0
 --- !u!1001 &100100000
 Prefab:
