@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: 929e6bb6c1458c84e8e3812a525c6520
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SailorEgg4_0
+    21300002: SailorEgg4_1
+    21300004: SailorEgg4_2
+    21300006: SailorEgg4_3
+    21300008: SailorEgg4_4
+    21300010: SailorEgg4_5
+    21300012: SailorEgg4_6
+    21300014: SailorEgg4_7
+    21300016: SailorEgg4_8
+    21300018: SailorEgg4_9
+    21300020: SailorEgg4_10
+    21300022: SailorEgg4_11
+    21300024: SailorEgg4_12
+    21300026: SailorEgg4_13
+    21300028: SailorEgg4_14
+    21300030: SailorEgg4_15
+    21300032: SailorEgg4_16
+    21300034: SailorEgg4_17
+    21300036: SailorEgg4_18
+    21300038: SailorEgg4_19
+    21300040: SailorEgg4_20
+    21300042: SailorEgg4_21
+    21300044: SailorEgg4_22
+    21300046: SailorEgg4_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SailorEgg4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6500
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6500
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6500
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6500
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5200
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_6
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5200
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_7
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5200
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3900
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3900
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3900
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3900
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2600
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2600
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2600
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2600
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1300
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1300
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_19
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1300
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorEgg4_23
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

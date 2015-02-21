@@ -19,7 +19,7 @@ GameObject:
   - 114: {fileID: 11464280}
   - 114: {fileID: 11464292}
   - 114: {fileID: 11464290}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SSNPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c441fca2fa909a41817e09ad5f408c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  input: {fileID: 0}
 --- !u!136 &13664280
 CapsuleCollider:
   m_ObjectHideFlags: 1

@@ -3,12 +3,17 @@ using System.Collections;
 
 public class PlayerControls : MonoBehaviour {
 
+
+	public InputManagerBase input;
+
 	MoveSideways ms;
 	Jump jump;
 	FastFall ff;
 
 	// Use this for initialization
 	void Start () {
+		if (!input) input = InputManager.get;
+
 		ms = GetComponent<MoveSideways>();
 		jump = GetComponent<Jump>();
 		ff = GetComponent<FastFall>();
@@ -23,27 +28,27 @@ public class PlayerControls : MonoBehaviour {
 	}
 
 	void handle_movement_input(){
-		if (InputManager.get.backward())
+		if (input.backward())
 			ms.set_acceleration(MoveSideways.accel_setting.BACKWARD);
-		if (InputManager.get.forward())
+		if (input.forward())
 			ms.set_acceleration(MoveSideways.accel_setting.FORWARD);
-		if (!InputManager.get.forward() && !InputManager.get.backward()) 
+		if (!input.forward() && !input.backward()) 
 			ms.set_acceleration(MoveSideways.accel_setting.STOP);
 	}
 
 	void handle_jump_input(){
-		if (InputManager.get.action_down()) jump.jump();
+		if (input.action_down()) jump.jump();
 	}
 
 	void handle_fast_fall_input(){
-		if (InputManager.get.action()) ff.faster_fall();
+		if (input.action()) ff.faster_fall();
 	}
 
 	void handle_swap_character_input(){
-		if (InputManager.get.swap_next_down()) {
+		if (input.swap_next_down()) {
 			SwapCharacter.instance.swapNextChar();
 		}
-		if (InputManager.get.swap_prev_down()){
+		if (input.swap_prev_down()){
 			SwapCharacter.instance.swapPrevChar();
 		}
 	}
