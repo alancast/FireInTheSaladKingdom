@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 481178}
+  - 114: {fileID: 11481178}
+  m_Layer: 0
+  m_Name: CloudAnchor2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481178
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 35.5999985, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11481178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70a564255726d4a9f805357af7cf5c1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hideGizmos: 0
+  numClouds: 200
+  cloudPrefabs:
+  - {fileID: 168862, guid: 7d4eabc394bf1452e90a443b4f547c54, type: 2}
+  - {fileID: 168862, guid: be5938158169941719a09b84ba0efc15, type: 2}
+  - {fileID: 168862, guid: 1cdaf89706bb1400ea5613ab538704b9, type: 2}
+  - {fileID: 168862, guid: 7d4eabc394bf1452e90a443b4f547c54, type: 2}
+  - {fileID: 168862, guid: 7d4eabc394bf1452e90a443b4f547c54, type: 2}
+  cloudPosSize: {x: 100, y: 78.1999969, z: 10}
+  cloudScaleMin: 1
+  cloudScaleMax: 5
+  cloudSpeedMult: .5
+  _______________: 0
+  cloudInstances: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181178}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
