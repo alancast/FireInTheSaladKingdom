@@ -1,50 +1,58 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &135910
+--- !u!1 &182056
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 435910}
-  - 114: {fileID: 11435910}
+  - 4: {fileID: 443438}
+  - 114: {fileID: 11483352}
   m_Layer: 0
-  m_Name: CharMGR
+  m_Name: InputManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &435910
+--- !u!4 &443438
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 135910}
+  m_GameObject: {fileID: 182056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -40.080822, y: 6.36126614, z: -3.86694336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11435910
+--- !u!114 &11483352
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 135910}
+  m_GameObject: {fileID: 182056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe126a7dca8c9ef42a451f1149c6ffc5, type: 3}
+  m_Script: {fileID: 11500000, guid: be6dc26c7146b1048a98e1a1b50fdf4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentChar: {fileID: 0}
-  currentCharIndex: 0
-  characters:
-  - {fileID: 147150, guid: 0e0c203e0b8258c4086e5b419e5db959, type: 2}
-  - {fileID: 177924, guid: 07ab93262b4c2784eaca19d8d7cd34aa, type: 2}
-  disabled: 0
+  resetButton: 303
+  actionButton: 32
+  swapNextButton: 100
+  swapPrevButton: 97
+  forwardButton: 275
+  backwardButton: 276
+  function_names:
+  - reset
+  - action
+  - action_down
+  - swap_next_down
+  - swap_prev_down
+  - forward
+  - backward
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -54,5 +62,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 135910}
+  m_RootGameObject: {fileID: 182056}
   m_IsPrefabParent: 1

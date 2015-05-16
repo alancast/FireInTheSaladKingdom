@@ -9,9 +9,11 @@ public class LimitBeckySpeed : MonoBehaviour {
 	void Update () {
 		Vector3 vel = GetComponent<Rigidbody>().velocity;
 		if (vel.x < -max_x_velocity) {
+			print ("Killing speed");
 			vel.x += killSpeed;		
 		}
 		if (vel.x > max_x_velocity) {
+			print ("Killing speed");
 			vel.x -= killSpeed;		
 		}
 		GetComponent<Rigidbody>().velocity = vel;
