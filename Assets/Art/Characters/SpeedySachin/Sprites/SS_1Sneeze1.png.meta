@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: dc21e858954d6454f8424887c4768768
+timeCreated: 1432694401
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SS_Single_Sneeze_00024
+    21300002: SS_Single_Sneeze_00025
+    21300004: SS_Single_Sneeze_00026
+    21300006: SS_Single_Sneeze_00027
+    21300008: SS_Single_Sneeze_00028
+    21300010: SS_Single_Sneeze_00029
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SS_Single_Sneeze_00024
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_Single_Sneeze_00025
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_Single_Sneeze_00026
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_Single_Sneeze_00027
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_Single_Sneeze_00028
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 554
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_Single_Sneeze_00029
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 56
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

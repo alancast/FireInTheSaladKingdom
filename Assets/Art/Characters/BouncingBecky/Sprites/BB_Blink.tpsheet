@@ -1,0 +1,14 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: BB_Blink.png (512 x 2048)
+# $TexturePacker:SmartUpdate:e03e0285c8376b0ed8515bc58e206fea:92198bbdee79a369b9596faee35cfcaa:f57591c29f2bc6e0ad748f8449179910$
+#
+
+BB_Blinking_00308;2;1394;502;652;0.4960159362549801;0.4693251533742331
+BB_Blinking_00309;2;740;502;652;0.4960159362549801;0.4693251533742331
+BB_Blinking_00310;2;86;502;652;0.4960159362549801;0.4693251533742331
+BB_Blinking_00311;2;740;502;652;0.4960159362549801;0.4693251533742331

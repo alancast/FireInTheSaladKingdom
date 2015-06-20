@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: e03d9f4f5e0731444b32995bedc7a462
+timeCreated: 1432694403
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SS_3Sneeze_00024
+    21300002: SS_3Sneeze_00025
+    21300004: SS_3Sneeze_00026
+    21300006: SS_3Sneeze_00027
+    21300008: SS_3Sneeze_00028
+    21300010: SS_3Sneeze_00029
+    21300012: SS_3Sneeze_00030
+    21300014: SS_3Sneeze_00031
+    21300016: SS_3Sneeze_00037
+    21300018: SS_3Sneeze_00038
+    21300020: SS_3Sneeze_00039
+    21300022: SS_3Sneeze_00040
+    21300024: SS_3Sneeze_00041
+    21300026: SS_3Sneeze_00042
+    21300028: SS_3Sneeze_00043
+    21300030: SS_3Sneeze_00044
+    21300032: SS_3Sneeze_00045
+    21300034: SS_3Sneeze_00046
+    21300036: SS_3Sneeze_00047
+    21300038: SS_3Sneeze_00048
+    21300040: SS_3Sneeze_00049
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SS_3Sneeze_00024
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00025
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00026
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 554
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00027
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 56
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00028
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00029
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00030
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00031
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00037
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00038
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 554
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00039
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 56
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00040
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00041
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00042
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1052
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00043
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 554
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00044
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 56
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00045
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 554
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00046
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 554
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00047
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1550
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00048
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 56
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_3Sneeze_00049
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 56
+        width: 399
+        height: 496
+      alignment: 9
+      pivot: {x: .501253128, y: .489919364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

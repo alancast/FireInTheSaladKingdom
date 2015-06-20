@@ -1,0 +1,16 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: SS_1Sneeze1.png (1024 x 2048)
+# $TexturePacker:SmartUpdate:7b1b2ca12149d440a8bc91a60abcf1da:18c6653603e5e0a131af7c14e82ca29f:38ec26cecfa1567eb676331ffffcfede$
+#
+
+SS_Single_Sneeze_00024;2;1550;399;496;0.5012531328320802;0.48991935483870963
+SS_Single_Sneeze_00025;403;1550;399;496;0.5012531328320802;0.48991935483870963
+SS_Single_Sneeze_00026;2;1052;399;496;0.5012531328320802;0.48991935483870963
+SS_Single_Sneeze_00027;403;1052;399;496;0.5012531328320802;0.48991935483870963
+SS_Single_Sneeze_00028;2;554;399;496;0.5012531328320802;0.48991935483870963
+SS_Single_Sneeze_00029;2;56;399;496;0.5012531328320802;0.48991935483870963

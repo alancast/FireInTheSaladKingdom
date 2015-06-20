@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 9a67f915775692241a8461c19fa2dfec
+timeCreated: 1432678544
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BB_Whistling_00000
+    21300002: BB_Whistling_00001
+    21300004: BB_Whistling_00002
+    21300006: BB_Whistling_00003
+    21300008: BB_Whistling_00004
+    21300010: BB_Whistling_00005
+    21300012: BB_Whistling_00006
+    21300014: BB_Whistling_00007
+    21300016: BB_Whistling_00008
+    21300018: BB_Whistling_00009
+    21300020: BB_Whistling_00010
+    21300022: BB_Whistling_00011
+    21300024: BB_Whistling_00012
+    21300026: BB_Whistling_00013
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BB_Whistling_00000
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1394
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1394
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1394
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00003
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 740
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00004
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00005
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1394
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00006
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1394
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00007
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1394
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00008
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 740
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00009
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 86
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00010
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 740
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00011
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 740
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00012
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 86
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BB_Whistling_00013
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 86
+        width: 502
+        height: 652
+      alignment: 9
+      pivot: {x: .496015936, y: .469325155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
