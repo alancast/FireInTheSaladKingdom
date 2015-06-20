@@ -46,7 +46,7 @@ public class PlayerControls : MonoBehaviour {
 	}
 
 	void handle_swap_character_input(){
-		if (!RespawnMGR.instance.swapping_allowed) return;
+		if (RespawnMGR.instance.is_respawning()) return;
 		if (input.swap_next_down()) {
 			SwapCharacter.instance.swapNextChar();
 			DimensionMGR.instance.swap_dimension();
