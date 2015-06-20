@@ -5,8 +5,9 @@ using System.Collections.Generic;
 public class RespawnMGR : MonoBehaviour {
 	public List<GameObject> spawnPoints = new List<GameObject>();
 	public int spawnIndex;
-
-	public bool swapping_allowed;
+	
+	bool swapping_allowed;
+	public bool is_respawning(){ return !swapping_allowed; }
 
 	public static RespawnMGR instance;
 
@@ -15,8 +16,7 @@ public class RespawnMGR : MonoBehaviour {
 		spawnIndex = 0;
 		swapping_allowed = true;
 	}
-
-
+	
 	public void respawn(GameObject objToSpawn){
 		swapping_allowed = false;
 		Fader.instance.fade_out_and_in();

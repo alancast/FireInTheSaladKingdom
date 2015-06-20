@@ -1,13 +1,33 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+/* 				DimensionControlled
+ * ------------------------------------------
+ * 
+ * DimensionControlled is a script to add on to 
+ * a parent object which has both an object for 
+ * two different dimensions
+ * 
+ * The public member function swap_dimension() 
+ * deactivates the currently active dimensional objects
+ * and activate the currently unactive dimensional objects
+ * 
+ * -------------------------------------------*/
+
+
 public class DimensionControlled : MonoBehaviour {
 
+	public GameObject[] dimensions;
 	public GameObject SS_dimension_obj;
 	public GameObject BB_dimension_obj;
 	
 	public GameObject current;
+	int current_dimension;
 
+
+	/* 				Unity Functions  
+	 * -----------------------------------------------*/
 	void Awake(){
 		current = SS_dimension_obj;
 		toggle_dimension();
@@ -15,20 +35,32 @@ public class DimensionControlled : MonoBehaviour {
 
 	void Start(){
 		DimensionMGR.instance.register(this);
-	}
-
-	public void swap_dimension(){
-		if (current == SS_dimension_obj) current = BB_dimension_obj;
-		else if (current == BB_dimension_obj) current = SS_dimension_obj;
+		current_dimension = DimensionMGR.instance.get_global_dimension();
 		toggle_dimension();
-
 	}
+
+	void OnDestroy(){
+		DimensionMGR.instance.unregister(this);
+	}
+
+
+	/* 			Public Methods
+	 * -----------------------------------------------------*/
+
+	public void swap_dimension(int dimension_number){
+		dimensions[current_dimension].SetActive(false);
+		current_dimension = dimension_number;
+		dimensions[current_dimension].SetActive(true);
+	}
+
+	/*			Helper
 
 	/* Turn off objects not from the current dimension */
 	void toggle_dimension(){
-		BB_dimension_obj.SetActive(false);
-		SS_dimension_obj.SetActive(false);
-		current.SetActive(true);
+		for (int i = 0; i < dimensions.Length; ++i){
+			dimensions[i].SetActive(false);
+		}
+		dimensions[current_dimension].SetActive(true);
 	}
 
 }
