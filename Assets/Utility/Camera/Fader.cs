@@ -24,7 +24,13 @@ public class Fader : MonoBehaviour {
 		Invoke("fade_in", delay + delay);
 	}
 
-	void fade_in(){
+	public void fade_out_to_scene(string scene_name){
+		Image img = GetComponent<Image>();
+		img.CrossFadeAlpha(1f, out_speed, false);
+		Application.LoadLevel(scene_name);
+	}
+
+	public void fade_in(){
 		Image img = GetComponent<Image>();
 		img.CrossFadeAlpha(0f, in_speed, false);
 	}

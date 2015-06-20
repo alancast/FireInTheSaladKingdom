@@ -22,7 +22,7 @@ public class InputManager : InputManagerBase {
 	public static InputManager get;
 
 	/* Enabled Dictionary */
-	Dictionary<string, bool> disabled = new Dictionary<string, bool>();
+	HashSet<string> disabled = new HashSet<string>();
 
 	void Awake(){
 		get = this;
@@ -31,52 +31,58 @@ public class InputManager : InputManagerBase {
 
 	public KeyCode resetButton;
 	public override bool reset(){
-		if (disabled["reset"]) return;
+		if (disabled.Contains("reset")) return false;
 		return Input.GetKeyDown(resetButton);
 	}
 
 	public KeyCode actionButton;
 	public override bool action(){
+		if (disabled.Contains("action")) return false;
 		return Input.GetKey(actionButton);
 	}
 
 	public override bool action_down(){
+		if (disabled.Contains("action_down")) return false;
 		return Input.GetKeyDown(actionButton);
 	}
 
 	public KeyCode swapNextButton;
 	public override bool swap_next_down(){
+		if (disabled.Contains("swap_next_down")) return false;
 		return Input.GetKeyDown(swapNextButton);
 	}
 
 	public KeyCode swapPrevButton;
 	public override bool swap_prev_down(){
+		if (disabled.Contains("swap_prev_down")) return false;
 		return Input.GetKeyDown(swapPrevButton);
 	}
 
 	public KeyCode forwardButton;
 	public override bool forward(){
+		if (disabled.Contains("forward")) return false;
 		return Input.GetKey(forwardButton);
 	}
 
 	public KeyCode backwardButton;
 	public override bool backward(){
+		if (disabled.Contains("backward")) return false;
 		return Input.GetKey(backwardButton);
 	}
 
 	/* Disable/Enable functions by name */
 		
 	public void disable_input(string input){
-		if (!disabled.ContainsKey(input)){
-			disabled.Add(input, true);
-		} else enabled[input] = true;
+		if (!disabled.Contains(input)){
+			disabled.Add(input);
+		}
 	}
 
 
 	public void enable_input(string input){
 		//If the key isn't in the dictionary,
 		// nothing is happening, so we just return
-		if (!disabled.ContainsKey(input)) return;
+		if (!disabled.Contains(input)) return;
 		// If it is in there, get rid of it
 		disabled.Remove(input);
 	}
