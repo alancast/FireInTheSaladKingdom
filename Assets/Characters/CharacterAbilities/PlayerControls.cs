@@ -1,6 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/* 			PlayerControls
+ * ------------------------------------------
+ * PlayerControls manages control of the currently controlled
+ * character.
+ * 
+ * unless an InputManagerBase object is specified, the 
+ * script will call the Singleton accessor for 
+ * InputManager.
+ * 
+ * In order to use alternative input, simply
+ * drag the object with an inputmanager base
+ * onto the input field in the inspector 
+ * ------------------------------------------*/
+
 public class PlayerControls : MonoBehaviour {
 
 
@@ -10,7 +24,10 @@ public class PlayerControls : MonoBehaviour {
 	Jump jump;
 	FastFall ff;
 
-	// Use this for initialization
+
+	/*			Unity Functions
+	 * ----------------------------------------*/
+
 	void Start () {
 		if (!input) input = InputManager.get;
 
@@ -19,13 +36,16 @@ public class PlayerControls : MonoBehaviour {
 		ff = GetComponent<FastFall>();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 		if (ms) handle_movement_input();
 		if (jump) handle_jump_input();
 		if (ff) handle_fast_fall_input();
 		handle_swap_character_input();
 	}
+
+
+	/*			Helpers
+	 * -------------------------------------*/
 
 	void handle_movement_input(){
 		if (input.backward())

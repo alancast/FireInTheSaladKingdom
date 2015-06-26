@@ -27,6 +27,11 @@ public class Fader : MonoBehaviour {
 	public void fade_out_to_scene(string scene_name){
 		Image img = GetComponent<Image>();
 		img.CrossFadeAlpha(1f, out_speed, false);
+		StartCoroutine(load_scene_after_fade(scene_name));
+	}
+
+	IEnumerator load_scene_after_fade(string scene_name){
+		yield return new WaitForSeconds(out_speed);
 		Application.LoadLevel(scene_name);
 	}
 

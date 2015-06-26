@@ -19,19 +19,12 @@ using System.Collections;
 public class DimensionControlled : MonoBehaviour {
 
 	public GameObject[] dimensions;
-	public GameObject SS_dimension_obj;
-	public GameObject BB_dimension_obj;
 	
-	public GameObject current;
 	int current_dimension;
 
 
 	/* 				Unity Functions  
 	 * -----------------------------------------------*/
-	void Awake(){
-		current = SS_dimension_obj;
-		toggle_dimension();
-	}
 
 	void Start(){
 		DimensionMGR.instance.register(this);
