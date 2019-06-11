@@ -24,7 +24,7 @@ public class CameraMGR : MonoBehaviour {
 
 	public void setNewTarget(GameObject new_target){
 		camera_target = new_target;
-		GetComponent<CameraZoom>().target = camera_target.rigidbody;
+		GetComponent<CameraZoom>().target = camera_target.GetComponent<Rigidbody>();
 		GetComponent<CameraFollow>().target = camera_target;
 	}
 

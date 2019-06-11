@@ -18,7 +18,7 @@ public class RespawnMGR : MonoBehaviour {
 		// Get the correct point to spawn at
 		Vector3 pos = spawnPoints [spawnIndex].transform.position;
 		// Kill all the movement and such for the object we're spawning
-		objToSpawn.rigidbody.velocity = Vector3.zero;
+		objToSpawn.GetComponent<Rigidbody>().velocity = Vector3.zero;
 		// Reset the acceleration ______________________________________________________________________________
 
 		// Move the thing to the spawn point

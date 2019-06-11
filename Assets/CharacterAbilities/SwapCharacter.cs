@@ -47,7 +47,7 @@ public class SwapCharacter : MonoBehaviour {
 	phys_info getCurrentCharPhysics(){
 		phys_info phys;
 		phys.accel_setting = currentChar.GetComponent<MoveSideways>().get_acceleration();
-		phys.vel = currentChar.rigidbody.velocity;
+		phys.vel = currentChar.GetComponent<Rigidbody>().velocity;
 		Destroy(currentChar);
 		return phys;
 	}
@@ -57,7 +57,7 @@ public class SwapCharacter : MonoBehaviour {
 		currentChar = Instantiate(characters[currentCharIndex], 
 		                          currentChar.transform.position, currentChar.transform.rotation) as GameObject;
 		// Assign accel and vel to new character 
-		currentChar.rigidbody.velocity = phys.vel;
+		currentChar.GetComponent<Rigidbody>().velocity = phys.vel;
 		MoveSideways new_ms = currentChar.GetComponent<MoveSideways>();
 		new_ms.set_acceleration(phys.accel_setting);
 		CameraMGR.instance.setNewTarget(currentChar);

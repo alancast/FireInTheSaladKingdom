@@ -16,8 +16,8 @@ public class ScreamController : MonoBehaviour {
 	}
 
 	void Movement(){
-		float speedX = Mathf.Abs (rigidbody.velocity.x);
-		float speedY = Mathf.Abs(rigidbody.velocity.y);
+		float speedX = Mathf.Abs (GetComponent<Rigidbody>().velocity.x);
+		float speedY = Mathf.Abs(GetComponent<Rigidbody>().velocity.y);
 	
 		float curSpeed = Mathf.Max (speedX, speedY);
 

@@ -19,7 +19,7 @@ public class RollWithVelocity : MonoBehaviour {
 	}
 
 	void calculate_roll_speed(){
-		current_roll_speed = rigidbody.velocity.x * roll_to_velocity_ratio;
+		current_roll_speed = GetComponent<Rigidbody>().velocity.x * roll_to_velocity_ratio;
 	}
 
 	void roll(){

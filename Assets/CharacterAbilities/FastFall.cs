@@ -8,9 +8,9 @@ public class FastFall : MonoBehaviour {
 
 
 	public void faster_fall(){
-		Vector3 vel = rigidbody.velocity;
+		Vector3 vel = GetComponent<Rigidbody>().velocity;
 		if (vel.y <= -max_downward_vel) return;
 		vel.y -= fast_fall_acceleration_speed;
-		rigidbody.velocity = vel;
+		GetComponent<Rigidbody>().velocity = vel;
 	}
 }

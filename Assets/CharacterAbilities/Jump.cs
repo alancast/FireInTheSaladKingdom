@@ -8,14 +8,14 @@ public class Jump : MonoBehaviour {
 
 	public void jump(){
 		if (!onGround()) return;
-		Vector3 vel = rigidbody.velocity;
+		Vector3 vel = GetComponent<Rigidbody>().velocity;
 		vel.y += jump_vel;
-		rigidbody.velocity = vel;
+		GetComponent<Rigidbody>().velocity = vel;
 	}
 
 	bool onGround(){
 		if (Physics.Raycast(transform.position, 
-		                    new Vector3(0, -1, 0), transform.collider.bounds.size.y + ground_jump_distance)) return true;
+		                    new Vector3(0, -1, 0), transform.GetComponent<Collider>().bounds.size.y + ground_jump_distance)) return true;
 		else return false;
 	}
 }

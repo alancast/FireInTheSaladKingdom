@@ -46,13 +46,13 @@ public class MoveSideways : MonoBehaviour {
 	}
 
 	void change_velocity(){
-		if (rigidbody.velocity.x < -max_velocity && acceleration < 0) return;
-		if (rigidbody.velocity.x > max_velocity && acceleration > 0) return;
-		Vector3 vel = rigidbody.velocity;
+		if (GetComponent<Rigidbody>().velocity.x < -max_velocity && acceleration < 0) return;
+		if (GetComponent<Rigidbody>().velocity.x > max_velocity && acceleration > 0) return;
+		Vector3 vel = GetComponent<Rigidbody>().velocity;
 		vel.x += acceleration * Time.deltaTime;
-		if (Mathf.Sign(rigidbody.velocity.x) != Mathf.Sign(acceleration)) 
+		if (Mathf.Sign(GetComponent<Rigidbody>().velocity.x) != Mathf.Sign(acceleration)) 
 			vel.x += acceleration * Time.deltaTime * slow_down_factor; 
-		rigidbody.velocity = vel;
+		GetComponent<Rigidbody>().velocity = vel;
 			
 	}
 

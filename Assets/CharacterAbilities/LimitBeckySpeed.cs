@@ -7,13 +7,13 @@ public class LimitBeckySpeed : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		Vector3 vel = rigidbody.velocity;
+		Vector3 vel = GetComponent<Rigidbody>().velocity;
 		if (vel.x < -max_x_velocity) {
 			vel.x += killSpeed;		
 		}
 		if (vel.x > max_x_velocity) {
 			vel.x -= killSpeed;		
 		}
-		rigidbody.velocity = vel;
+		GetComponent<Rigidbody>().velocity = vel;
 	}
 }
